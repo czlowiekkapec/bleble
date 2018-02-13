@@ -47,3 +47,9 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+
+@media(max-width:640px){
+
+  body{background-color:red};
+  .bottoms {flex-direction: column};
+}
